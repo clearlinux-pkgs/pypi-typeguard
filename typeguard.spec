@@ -4,7 +4,7 @@
 #
 Name     : typeguard
 Version  : 2.10.0
-Release  : 2
+Release  : 3
 URL      : https://files.pythonhosted.org/packages/44/53/661042fee9b069410a68fb75949ebfd8e623e8269f562bc3d8396a8788dd/typeguard-2.10.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/44/53/661042fee9b069410a68fb75949ebfd8e623e8269f562bc3d8396a8788dd/typeguard-2.10.0.tar.gz
 Summary  : Run-time type checker for Python
@@ -17,6 +17,7 @@ BuildRequires : buildreq-distutils3
 BuildRequires : pluggy
 BuildRequires : py-python
 BuildRequires : pytest
+BuildRequires : setuptools_scm
 BuildRequires : tox
 BuildRequires : virtualenv
 
@@ -66,7 +67,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1603749578
+export SOURCE_DATE_EPOCH=1603751043
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
