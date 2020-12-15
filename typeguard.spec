@@ -4,7 +4,7 @@
 #
 Name     : typeguard
 Version  : 2.10.0
-Release  : 5
+Release  : 6
 URL      : https://files.pythonhosted.org/packages/44/53/661042fee9b069410a68fb75949ebfd8e623e8269f562bc3d8396a8788dd/typeguard-2.10.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/44/53/661042fee9b069410a68fb75949ebfd8e623e8269f562bc3d8396a8788dd/typeguard-2.10.0.tar.gz
 Summary  : Run-time type checker for Python
