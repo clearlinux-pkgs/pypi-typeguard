@@ -1,5 +1,5 @@
 PKG_NAME := typeguard
-URL = https://files.pythonhosted.org/packages/13/c0/9408e8c9d374b59cf3b542244c8176dde63c2c77cc1da7eb6ed0a6d086b1/typeguard-2.13.2.tar.gz
+URL = https://files.pythonhosted.org/packages/3a/38/c61bfcf62a7b572b5e9363a802ff92559cb427ee963048e1442e3aef7490/typeguard-2.13.3.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
