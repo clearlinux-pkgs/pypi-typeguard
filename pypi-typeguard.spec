@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-typeguard
-Version  : 4.0.0
-Release  : 34
-URL      : https://files.pythonhosted.org/packages/81/1f/38b3c89109c3efefd5d02073aa75e765ed5392288a1181cb6e82ee775c06/typeguard-4.0.0.tar.gz
-Source0  : https://files.pythonhosted.org/packages/81/1f/38b3c89109c3efefd5d02073aa75e765ed5392288a1181cb6e82ee775c06/typeguard-4.0.0.tar.gz
+Version  : 4.0.1
+Release  : 35
+URL      : https://files.pythonhosted.org/packages/32/d5/fcbcd3c716b7a69ab0381f7ee42ae667624a1d147ea3fea0d9808dc77174/typeguard-4.0.1.tar.gz
+Source0  : https://files.pythonhosted.org/packages/32/d5/fcbcd3c716b7a69ab0381f7ee42ae667624a1d147ea3fea0d9808dc77174/typeguard-4.0.1.tar.gz
 Summary  : Run-time type checker for Python
 Group    : Development/Tools
 License  : MIT
@@ -54,16 +54,17 @@ Summary: python3 components for the pypi-typeguard package.
 Group: Default
 Requires: python3-core
 Provides: pypi(typeguard)
+Requires: pypi(typing_extensions)
 
 %description python3
 python3 components for the pypi-typeguard package.
 
 
 %prep
-%setup -q -n typeguard-4.0.0
-cd %{_builddir}/typeguard-4.0.0
+%setup -q -n typeguard-4.0.1
+cd %{_builddir}/typeguard-4.0.1
 pushd ..
-cp -a typeguard-4.0.0 buildavx2
+cp -a typeguard-4.0.1 buildavx2
 popd
 
 %build
@@ -71,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1684030428
+export SOURCE_DATE_EPOCH=1690472204
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
