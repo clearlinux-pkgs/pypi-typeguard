@@ -4,10 +4,10 @@
 # Using build pattern: pyproject
 #
 Name     : pypi-typeguard
-Version  : 4.1.2
-Release  : 38
-URL      : https://files.pythonhosted.org/packages/85/3b/bfac182aaf3d084832fbe5fb1bdbf52c3ec8b0d10838888521b697952900/typeguard-4.1.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/85/3b/bfac182aaf3d084832fbe5fb1bdbf52c3ec8b0d10838888521b697952900/typeguard-4.1.2.tar.gz
+Version  : 4.1.3
+Release  : 39
+URL      : https://files.pythonhosted.org/packages/03/5e/86aa02d061883b57130c4829e46315b3315037f9c9a5b561cd5fd424a9be/typeguard-4.1.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/03/5e/86aa02d061883b57130c4829e46315b3315037f9c9a5b561cd5fd424a9be/typeguard-4.1.3.tar.gz
 Summary  : Run-time type checker for Python
 Group    : Development/Tools
 License  : MIT
@@ -61,10 +61,10 @@ python3 components for the pypi-typeguard package.
 
 
 %prep
-%setup -q -n typeguard-4.1.2
-cd %{_builddir}/typeguard-4.1.2
+%setup -q -n typeguard-4.1.3
+cd %{_builddir}/typeguard-4.1.3
 pushd ..
-cp -a typeguard-4.1.2 buildavx2
+cp -a typeguard-4.1.3 buildavx2
 popd
 
 %build
@@ -72,7 +72,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1692373126
+export SOURCE_DATE_EPOCH=1693254329
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
