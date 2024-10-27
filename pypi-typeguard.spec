@@ -7,7 +7,7 @@
 #
 Name     : pypi-typeguard
 Version  : 4.3.0
-Release  : 45
+Release  : 46
 URL      : https://files.pythonhosted.org/packages/8d/e1/3178b3e5369a98239ed7301e3946747048c66f4023163d55918f11b82d4e/typeguard-4.3.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/8d/e1/3178b3e5369a98239ed7301e3946747048c66f4023163d55918f11b82d4e/typeguard-4.3.0.tar.gz
 Summary  : Run-time type checker for Python
