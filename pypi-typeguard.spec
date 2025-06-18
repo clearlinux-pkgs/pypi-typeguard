@@ -6,10 +6,10 @@
 # autospec commit: 65cf152
 #
 Name     : pypi-typeguard
-Version  : 4.4.3
-Release  : 51
-URL      : https://files.pythonhosted.org/packages/34/53/f701077a29ddf65ed4556119961ef517d767c07f15f6cdf0717ad985426b/typeguard-4.4.3.tar.gz
-Source0  : https://files.pythonhosted.org/packages/34/53/f701077a29ddf65ed4556119961ef517d767c07f15f6cdf0717ad985426b/typeguard-4.4.3.tar.gz
+Version  : 4.4.4
+Release  : 52
+URL      : https://files.pythonhosted.org/packages/c7/68/71c1a15b5f65f40e91b65da23b8224dad41349894535a97f63a52e462196/typeguard-4.4.4.tar.gz
+Source0  : https://files.pythonhosted.org/packages/c7/68/71c1a15b5f65f40e91b65da23b8224dad41349894535a97f63a52e462196/typeguard-4.4.4.tar.gz
 Summary  : Run-time type checker for Python
 Group    : Development/Tools
 License  : MIT
@@ -63,10 +63,10 @@ python3 components for the pypi-typeguard package.
 
 
 %prep
-%setup -q -n typeguard-4.4.3
-cd %{_builddir}/typeguard-4.4.3
+%setup -q -n typeguard-4.4.4
+cd %{_builddir}/typeguard-4.4.4
 pushd ..
-cp -a typeguard-4.4.3 buildavx2
+cp -a typeguard-4.4.4 buildavx2
 popd
 
 %build
@@ -74,7 +74,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1749136624
+export SOURCE_DATE_EPOCH=1750253398
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
